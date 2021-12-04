@@ -32,11 +32,11 @@ public class DataHelper {
         private String cardBalance;
 
         public static CardData getFirstCardData() {
-            return new CardData("5559000000000001", "1000");
+            return new CardData("5559000000000001", "10000");
         }
 
         public static CardData getSecondCardData() {
-            return new CardData("5559000000000002", "1000");
+            return new CardData("5559000000000002", "10000");
         }
 
     }

@@ -24,7 +24,7 @@ public class MoneyTransferTest {
 
     @BeforeEach
     void setUp() {
-        Configuration.headless = true;
+        //Configuration.headless = true;
         open("http://localhost:9999");
         LoginPage loginPage = new LoginPage();
         AuthInfo authInfo = DataHelper.getAuthInfo();
