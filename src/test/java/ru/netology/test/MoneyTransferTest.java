@@ -73,7 +73,7 @@ public class MoneyTransferTest {
 
     @Test
     public void shouldNotTransferIfNotEnoughMoney() {
-        int amount = 2000;
+        int amount = 50_000;
         CardData firstCardData = CardData.getFirstCardData();
         CardData secondCardData = CardData.getSecondCardData();
         int firstCardBalanceBeforeTransfer = DashboardPage.getFirstCardCurrentBalance();
